@@ -1,0 +1,332 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+#wrapper{
+    
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.headeritems1 {
+    
+   display: flex;
+    list-style: none;
+    
+    justify-content: space-between;
+    
+    
+}
+.menu_list{
+    margin-top: 9em;
+}
+
+.headeritems__logo {
+    max-width: 300px;
+
+    padding-top: 2em;
+    padding-bottom: 3em;
+    margin-left: 6em;
+}
+
+.menu {
+    display: flex;
+    align-items: flex-end;
+    list-style: none;
+    padding-left: 30em;
+    height: 2em;
+    padding-bottom: 0.5em;
+}
+
+.menu__item {
+    display: flex;
+    justify-content: center;
+    margin-left: 27px;
+}
+
+.menu__item--last {
+    margin-left: auto;
+   
+}
+
+.menu__link {
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+
+/*------------*/
+main{
+max-width: 50%;
+margin: 0 auto;
+}
+
+.reklam-image{
+
+    width: 600px;
+
+    height: 150px;
+    margin-top: 1em;
+margin-bottom: 2em;
+    align-self: center;
+    background-color: lightgray;
+
+}
+
+
+.abonnement_heading1{
+    font-weight: 100;
+    font-size: small;
+    padding: 4px;
+    color: lightgrey;
+}
+
+.abonnement_heading1--col, .kob_col{
+    color: red;
+}
+.abonnement_heading2, 
+.abonnement_writing{
+    padding-bottom: 5px;
+}
+.box_text{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.abonnement_pic{
+    margin-bottom: 6px;
+    max-width: 400px;
+
+}
+
+.box_text1 {
+  
+    
+   padding-top: 50px;
+   font-size: small;
+   font-style: italic;
+   font-weight: 100;
+
+}
+/*..............*/
+
+.uland_start{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-top: 5em;
+}
+.uland_col, .lastNews_col, .anbefaler_col, .fik_col{
+    color: red;
+}
+
+.uland2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+}
+.writer_pic{
+    max-width: 30px;
+    border-radius: 50%;
+    
+}
+.uland2_name{
+    display: flex;
+    
+}
+.uland2_W{
+    padding-bottom: 1em;
+    .fa-square-twitter{
+        font-size:xx-small;
+    }
+}
+
+.uland2_logo{
+    .fa {
+        padding: 30px;
+        font-size: small;
+        max-width: 50%;
+        height: 80px;
+        text-align: center;
+        text-decoration: none;
+      
+      }
+    .fa-square-facebook {
+        background: #3B5998;
+        color: white;
+        border: none;
+        padding: 1px 3px;
+        
+      }
+      .fa-square-twitter {
+        background: #55ACEE;
+        color: white;
+        padding: 1px 3px;
+      }
+      .fa-at{
+        background-color: gray;
+        color: white;
+        padding: 1px 3px;
+      }
+}
+
+.fa-circle-envelope{
+    font-size: small;
+}
+.fa-square-twitter{
+    font-size: small;
+    font-weight: 200;
+font-weight: lighter;
+}
+.uland2_text,.uland2_logo{
+    padding-top: 1em;
+}
+.uland3{
+    text-align: center;
+    padding-bottom: 5em;
+    padding-top: 4em;
+}
+.uland3_txt{
+    padding-bottom: 1em;
+}
+.uland3_p{
+    padding-top: 1em;
+}
+.klik_button{
+    color: white;
+    background-color: red;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.fik_start{
+    display: flex;
+    justify-content: space-between;
+}
+.fik_arrow{
+    display: flex;
+    color: lightgray;
+}
+.topNews{
+  
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 2em;
+   
+}
+.topNews_pic{
+    padding-bottom: 1em;
+}
+.time{
+    color: lightgray;
+    padding-bottom: 1em;
+}
+.most_read ul li {
+    list-style: none;
+}
+.most_read1{
+    display: flex;
+    gap: 2em;
+    padding-bottom: 3em;
+   
+}
+.lastNews_heading{
+    display: flex;
+    
+}
+.information{
+    margin-left: 26em;
+}
+.information_text{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-template-rows: repeat(2, auto);
+    gap: 1em;
+}
+.information_heading{
+    grid-column: 1/-1;
+}
+/*..........comments.......*/
+
+.anbefaler{
+display: flex;
+}
+.kommenter_heading{
+    margin-left: 22em;
+}
+.anbefaler_article{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.anbefaler_article2{
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+.anbefaler_heading3{
+    color: lightgray;
+    font-size: small;
+    margin-left: 2em;
+}
+.last_line{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-weight: 100;
+    font-size: small;
+    color: lightgray;
+}
+.last_span{
+    color: black;
+}
+/*..............foooter.......*/
+.footer{
+    background-color: lightgray;
+}
+.footer_one{
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    padding: 2em;
+    margin-left: 4em;
+    gap: 1em;
+    
+}
+.footer_one ul li{
+    list-style: none;
+}
+.avis_footer--heading{
+    padding-bottom: 1em;
+}
+.avis_footer--heading2{
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer_pic{
+    max-height: 250px;
+    max-width: 200px;
+    position: relative;
+    top:-4em;
+    z-index: 1;
+}
+
+.info_footer{
+    text-align: center;
+}
+.contact__submit{
+    border: none;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
